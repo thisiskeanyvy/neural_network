@@ -15,11 +15,11 @@ def train_letter(image_path):
             print(f"Erreur pour {letter}: identifiée comme {output}. Réessai...")
 
 def process_letters_folder(folder_path):
-        filename = input("Lettre à lire (ex: letters/Roboto-Black/A.bmp) : ");
+        filename = input("Lettre à lire (ex: Roboto-Black/A) : ");
         filename += ".bmp"
         image_path = os.path.join(folder_path, filename)
         print(f"Traitement de {filename}...")
         train_letter(image_path)
 
-letters_folder = "letters/letters"
+letters_folder = "letters/"
 process_letters_folder(letters_folder)
