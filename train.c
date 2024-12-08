@@ -5,8 +5,6 @@
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
 
-// compilation : gcc train.c -o train -lm `pkg-config --cflags --libs sdl2 SDL2_image`
-
 #define INPUT_SIZE 2744 // 56x49 pixels
 #define HIDDEN_SIZE 256
 #define OUTPUT_SIZE 26  // lettres alphabet

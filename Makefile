@@ -3,7 +3,7 @@ CFLAGS = -Wall -Wextra -O2 -pedantic -std=c99
 LIBS = -lm -lSDL2 -lSDL2_image
 TARGET = train
 SRCS = train.c
-OBJS = $(SRCS:.c=.o)
+OBJS = train.o
 
 all: $(TARGET)
 
