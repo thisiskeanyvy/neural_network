@@ -55,9 +55,9 @@ Et si la lettre détectée n'est pas la bonne :
 ```bash
 python3 manual_train.py
 ```
-... puis entrer la lettre (ex: U).
+... puis entrer la lettre attendue (ex: U).
 
-Puis, pour vérifier une seule lettre :
+Puis, pour harmoniser le réseau de neurones et le sauvegarder :
 ```bash
 ./train train dossier_lettres/
 ```
